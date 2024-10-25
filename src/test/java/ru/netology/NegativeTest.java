@@ -16,11 +16,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class NegativeTest {
     private WebDriver driver;
 
-    @BeforeAll
-    public static void setupAll() {
-        WebDriverManager.chromedriver().setup();
-    }
-
     @BeforeEach
     public void beforeEach() {
         ChromeOptions options = new ChromeOptions();
